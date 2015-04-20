@@ -1,0 +1,135 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.laura.assignment_2.F2"
+    android:background="@android:color/white"
+    android:id="@+id/mainy">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="407dp"
+        android:layout_gravity="center|bottom">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_width="74dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/imageButton"
+                    android:src="@drawable/test"
+                    android:background="@android:color/white"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:onClick="change_layout"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/Reseplanerare"
+                    android:id="@+id/textView"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="center_horizontal|bottom" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_gravity="bottom">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton2"
+                    android:src="@drawable/test2"
+                    android:background="@android:color/white"
+                    android:layout_gravity="center_horizontal|bottom" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/Tidtabeller"
+                    android:id="@+id/textView2"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="center_horizontal|bottom" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_gravity="bottom">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton3"
+                    android:src="@drawable/test3"
+                    android:background="@android:color/white"
+                    android:layout_gravity="center_horizontal|bottom" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/Hållplatssök"
+                    android:id="@+id/textView3"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="center_horizontal|bottom" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_gravity="bottom">
+
+                <ImageButton
+                    android:layout_width="93dp"
+                    android:layout_height="76dp"
+                    android:id="@+id/imageButton4"
+                    android:src="@drawable/test4"
+                    android:background="@android:color/white"
+                    android:layout_gravity="center_horizontal|bottom" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/Biljetter"
+                    android:id="@+id/textView4"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="center_horizontal|bottom" />
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/test5"
+        android:scaleType="fitStart"/>
+
+
+</FrameLayout>

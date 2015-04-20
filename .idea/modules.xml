@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Pfi2_Assignment2.iml" filepath="$PROJECT_DIR$/Pfi2_Assignment2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ass_2/ass_2.iml" filepath="$PROJECT_DIR$/ass_2/ass_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assi_2/assi_2.iml" filepath="$PROJECT_DIR$/assi_2/assi_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignment_2/assignment_2.iml" filepath="$PROJECT_DIR$/assignment_2/assignment_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assiignment_3/assiignment_3.iml" filepath="$PROJECT_DIR$/assiignment_3/assiignment_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assågment_2/assågment_2.iml" filepath="$PROJECT_DIR$/assågment_2/assågment_2.iml" />
+    </modules>
+  </component>
+</project>
+
